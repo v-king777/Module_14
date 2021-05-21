@@ -30,8 +30,7 @@ namespace Task
             // Вывод результата
             foreach (var contact in sortedPhoneBook1)
             {
-                Console.WriteLine($"{contact.Name} - {contact.LastName}" +
-                    $" - {contact.PhoneNumber} - {contact.Email}");
+                Console.WriteLine($"{contact.Name} {contact.LastName}, тел. {contact.PhoneNumber}");
             }
         }
     }
